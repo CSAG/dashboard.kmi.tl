@@ -10,7 +10,12 @@
 | to using a Closure or controller method. Build something great!
 |
 */
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/', function () {
+        return view('welcome');
+    });
+});
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/login', function () {
+    return view('page.auth.login');
 });
