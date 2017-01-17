@@ -3,22 +3,27 @@
         <nav class="pull-left">
             <ul>
                 <li>
-                    <a href="#">
+                    <a target="_blank" href="http://csag.kmi.tl">
                         CSAG
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a target="_blank" href="http://kmi.tl">
                         KMI.TL
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a target="_blank" href="http://mail.kmi.tl">
+                        EMAIL
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/csag.kmitl">
                         FACEBOOK PAGE
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a target="_blank" href="https://www.facebook.com/groups/csagcommunity">
                         FACEBOOK COMMUNITY
                     </a>
                 </li>

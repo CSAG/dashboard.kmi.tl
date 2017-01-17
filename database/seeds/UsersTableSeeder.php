@@ -15,6 +15,7 @@ class UsersTableSeeder extends Seeder
             'fullname' => 'Passakon Puttasuwan',
             'email' => 'passakon_p@kmi.tl',
             'password' => bcrypt('12345678'),
+            'type' => 'ADMIN',
         ]);
     }
 }

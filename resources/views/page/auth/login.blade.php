@@ -20,9 +20,9 @@
 <body>
 <nav class="navbar navbar-primary navbar-transparent navbar-absolute">
     <div class="container">
-            <a class="navbar-brand" href="#"><img src="{{ url('public/dashboard/img/logo_small.png') }}" class="text-center"
-                                                  style="max-height: 150%"></a>
-        </div>
+        <a class="navbar-brand" href="#"><img src="{{ url('public/dashboard/img/logo_small.png') }}" class="text-center"
+                                              style="max-height: 150%"></a>
+    </div>
 
 </nav>
 <div class="wrapper wrapper-full-page">
@@ -33,12 +33,13 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
                         @if(session('err'))
-                            <div class="alert alert-danger">
-                                {{session('err')}}
+                            <div class="alert alert-danger" style="margin-bottom: 50px">
 
+                                <span>
+                                    {{session('err')}}</span>
                             </div>
                         @endif
-                        <form method="post" action="{{ url('login') }}" >
+                        <form method="post" action="{{ url('login') }}">
                             {{ csrf_field() }}
                             <div class="card card-login">
                                 <div class="card-header text-center" data-background-color="rose">
@@ -81,27 +82,27 @@
                 <nav class="pull-left">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="http://csag.kmi.tl">
                                 CSAG
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="http://kmi.tl">
                                 KMI.TL
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="http://mail.kmi.tl">
                                 EMAIL
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="https://www.facebook.com/csag.kmitl">
                                 FACEBOOK PAGE
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="https://www.facebook.com/groups/csagcommunity">
                                 FACEBOOK COMMUNITY
                             </a>
                         </li>
